@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="P2GuessTheFlag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project6a" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,6 +20,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vco-cT-uNO">
                                 <rect key="frame" x="200" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vco-cT-uNO" secondAttribute="height" multiplier="2:1" id="Y6F-Wu-6ct"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5t-DT-2T6"/>
@@ -26,6 +30,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoG-QS-Y2F">
                                 <rect key="frame" x="200" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uoG-QS-Y2F" secondAttribute="height" multiplier="2:1" id="rxk-M8-vt3"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aym-qk-cqe"/>
@@ -33,6 +40,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAA-dt-ZM8">
                                 <rect key="frame" x="200" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jAA-dt-ZM8" secondAttribute="height" multiplier="2:1" id="Q4s-qD-WGI"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1yw-JP-I0a"/>
@@ -42,9 +52,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Vco-cT-uNO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="4mH-X6-I3h"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jAA-dt-ZM8" secondAttribute="bottom" constant="20" id="9xc-Vu-yjN"/>
                             <constraint firstItem="jAA-dt-ZM8" firstAttribute="top" secondItem="uoG-QS-Y2F" secondAttribute="bottom" constant="30" id="Kg7-Hz-yKe"/>
                             <constraint firstItem="uoG-QS-Y2F" firstAttribute="top" secondItem="Vco-cT-uNO" secondAttribute="bottom" constant="30" id="Qk9-rW-YvH"/>
+                            <constraint firstItem="uoG-QS-Y2F" firstAttribute="height" secondItem="Vco-cT-uNO" secondAttribute="height" id="U3L-EU-yku"/>
                             <constraint firstItem="uoG-QS-Y2F" firstAttribute="centerX" secondItem="Vco-cT-uNO" secondAttribute="centerX" id="fyY-4C-dyP"/>
+                            <constraint firstItem="jAA-dt-ZM8" firstAttribute="height" secondItem="uoG-QS-Y2F" secondAttribute="height" id="ljS-YM-Nk8"/>
                             <constraint firstItem="Vco-cT-uNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tat-OZ-e9s"/>
                             <constraint firstItem="jAA-dt-ZM8" firstAttribute="centerX" secondItem="uoG-QS-Y2F" secondAttribute="centerX" id="wm2-TA-VCB"/>
                         </constraints>

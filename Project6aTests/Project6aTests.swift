@@ -1,15 +1,15 @@
 //
-//  P2GuessTheFlagTests.swift
-//  P2GuessTheFlagTests
+//  Projectc6aTests.swift
+//  Project6aTests
 //
 //  Created by Jacques on 24/11/15.
 //  Copyright © 2015 J4SOFT. All rights reserved.
 //
 
 import XCTest
-@testable import P2GuessTheFlag
+@testable import Project6a
 
-class P2GuessTheFlagTests: XCTestCase {
+class Project6aTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  P2GuessTheFlag
+//  Project6a
 //
 //  Created by Jacques on 24/11/15.
 //  Copyright © 2015 J4SOFT. All rights reserved.

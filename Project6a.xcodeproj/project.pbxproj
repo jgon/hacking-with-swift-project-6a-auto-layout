@@ -12,7 +12,7 @@
 		C47A13A71C04CCB90027E1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47A13A51C04CCB90027E1BA /* Main.storyboard */; };
 		C47A13A91C04CCB90027E1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47A13A81C04CCB90027E1BA /* Assets.xcassets */; };
 		C47A13AC1C04CCB90027E1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47A13AA1C04CCB90027E1BA /* LaunchScreen.storyboard */; };
-		C47A13B71C04CCB90027E1BA /* P2GuessTheFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A13B61C04CCB90027E1BA /* P2GuessTheFlagTests.swift */; };
+		C47A13B71C04CCB90027E1BA /* Project6aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A13B61C04CCB90027E1BA /* Project6aTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		C47A13AB1C04CCB90027E1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C47A13AD1C04CCB90027E1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47A13B21C04CCB90027E1BA /* Project6a.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project6a.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C47A13B61C04CCB90027E1BA /* P2GuessTheFlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2GuessTheFlagTests.swift; sourceTree = "<group>"; };
+		C47A13B61C04CCB90027E1BA /* Project6aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6aTests.swift; sourceTree = "<group>"; };
 		C47A13B81C04CCB90027E1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47A13C11C0780DE0027E1BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +92,7 @@
 		C47A13B51C04CCB90027E1BA /* Project6aTests */ = {
 			isa = PBXGroup;
 			children = (
-				C47A13B61C04CCB90027E1BA /* P2GuessTheFlagTests.swift */,
+				C47A13B61C04CCB90027E1BA /* Project6aTests.swift */,
 				C47A13B81C04CCB90027E1BA /* Info.plist */,
 			);
 			path = Project6aTests;
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47A13B71C04CCB90027E1BA /* P2GuessTheFlagTests.swift in Sources */,
+				C47A13B71C04CCB90027E1BA /* Project6aTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +327,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = P2GuessTheFlag/Info.plist;
+				INFOPLIST_FILE = Project6a/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.P2GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.Project6a;
 				PRODUCT_NAME = Project6a;
 			};
 			name = Debug;
@@ -338,9 +338,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = P2GuessTheFlag/Info.plist;
+				INFOPLIST_FILE = Project6a/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.P2GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.Project6a;
 				PRODUCT_NAME = Project6a;
 			};
 			name = Release;
@@ -349,9 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = P2GuessTheFlagTests/Info.plist;
+				INFOPLIST_FILE = Project6aTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.P2GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.Project6aTests;
 				PRODUCT_NAME = Project6a;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project6a.app/Project6a";
 			};
@@ -361,9 +361,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = P2GuessTheFlagTests/Info.plist;
+				INFOPLIST_FILE = Project6aTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.P2GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.j4soft.Project6aTests;
 				PRODUCT_NAME = Project6a;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project6a.app/Project6a";
 			};
