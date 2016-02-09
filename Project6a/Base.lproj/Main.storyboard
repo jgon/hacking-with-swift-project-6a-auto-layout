@@ -21,6 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vco-cT-uNO">
                                 <rect key="frame" x="200" y="100" width="200" height="100"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="GOO-d4-oSV"/>
                                     <constraint firstAttribute="width" secondItem="Vco-cT-uNO" secondAttribute="height" multiplier="2:1" id="Y6F-Wu-6ct"/>
                                 </constraints>
                                 <state key="normal" image="us"/>
@@ -56,6 +57,7 @@
                             <constraint firstItem="jAA-dt-ZM8" firstAttribute="top" secondItem="uoG-QS-Y2F" secondAttribute="bottom" constant="30" id="Kg7-Hz-yKe"/>
                             <constraint firstItem="uoG-QS-Y2F" firstAttribute="top" secondItem="Vco-cT-uNO" secondAttribute="bottom" constant="30" id="Qk9-rW-YvH"/>
                             <constraint firstItem="uoG-QS-Y2F" firstAttribute="height" secondItem="Vco-cT-uNO" secondAttribute="height" id="U3L-EU-yku"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jAA-dt-ZM8" secondAttribute="bottom" constant="140" id="Vv2-9P-NAR"/>
                             <constraint firstItem="uoG-QS-Y2F" firstAttribute="centerX" secondItem="Vco-cT-uNO" secondAttribute="centerX" id="fyY-4C-dyP"/>
                             <constraint firstItem="jAA-dt-ZM8" firstAttribute="height" secondItem="uoG-QS-Y2F" secondAttribute="height" id="ljS-YM-Nk8"/>
                             <constraint firstItem="Vco-cT-uNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tat-OZ-e9s"/>
